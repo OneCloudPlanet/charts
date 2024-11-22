@@ -1,1 +1,19 @@
-https://onecloudplanet.github.io/charts/calico-0.1.0.tgz
+apiVersion: v1
+entries:
+  calico:
+    - apiVersion: v1
+      appVersion: v3.28.1
+      name: calico
+      version: 0.1.0
+      description: Calico CNI for OCP Kubernetes Clusters
+      home: https://onecloudplanet.com/
+      maintainers:
+        - name: OneCloudPlanet
+          email: support@onecloudplanet.com
+      sources:
+        - https://github.com/onecloudplanet/charts
+      urls:
+        - https://onecloudplanet.github.io/charts/calico-0.1.0.tgz
+      created: "2024-11-22T14:43:06.3375615+01:00"
+      digest: 45628a69ea071bf13b97b8569ca633b1efb4679967f4efec4d855519cdba3b19
+generated: "2024-11-22T14:43:06.3263938+01:00"
