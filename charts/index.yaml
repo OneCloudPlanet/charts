@@ -6,12 +6,10 @@ entries:
       name: calico
       version: 0.1.0
       description: Calico CNI for OCP Kubernetes Clusters
-      home: https://onecloudplanet.com
+      home: https://onecloudplanet.com/
       maintainers:
         - name: OneCloudPlanet
           email: support@onecloudplanet.com
-      sources:
-        - https://github.com/onecloudplanet/charts
       urls:
         - https://onecloudplanet.github.io/charts/calico-0.1.0.tgz
       created: "2024-11-22T14:43:06.3375615+01:00"
