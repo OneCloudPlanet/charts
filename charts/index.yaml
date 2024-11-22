@@ -10,6 +10,8 @@ entries:
       maintainers:
         - name: OneCloudPlanet
           email: support@onecloudplanet.com
+      sources:
+        - https://github.com/onecloudplanet/charts
       urls:
         - https://onecloudplanet.github.io/charts/calico-0.1.0.tgz
       created: "2024-11-22T14:43:06.3375615+01:00"
