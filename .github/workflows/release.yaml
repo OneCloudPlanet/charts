@@ -23,7 +23,6 @@ jobs:
         uses: helm/chart-releaser-action@v1.6.0
         with:
           charts_dir: 'charts'
-          pages_branch: gh-pages
           packages_with_index: true
           skip_existing: false
         env:
