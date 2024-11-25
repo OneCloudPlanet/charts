@@ -31,6 +31,6 @@ jobs:
         with:
           charts_dir: 'charts'
           packages_with_index: true
-          skip_existing: false
+          skip_existing: true
         env:
           CR_TOKEN: ${{ secrets.GITHUB_TOKEN }}
