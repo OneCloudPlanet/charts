@@ -1,0 +1,13 @@
+apiVersion: v1
+entries:
+  calico:
+  - apiVersion: v1
+    appVersion: v3.28.1
+    created: "2024-11-25T13:12:43.93933626Z"
+    description: Calico CNI for OCP Kubernetes Clusters
+    digest: a48b41832b7fc7ed7b5d84b50eb8d4b5814cacfe4469952c605d4fdb0d38193f
+    name: calico
+    urls:
+    - calico-0.1.0.tgz
+    version: 0.1.0
+generated: "2024-11-25T13:12:43.939348323Z"
