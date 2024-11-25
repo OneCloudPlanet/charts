@@ -25,6 +25,6 @@ jobs:
           charts_dir: 'charts'
           pages_branch: gh-pages
           packages_with_index: true
+          skip_existing: false
         env:
           CR_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          CR_DEBUG: true
