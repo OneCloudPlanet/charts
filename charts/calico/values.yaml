@@ -1,5 +1,5 @@
 # The Calico version to use when generating manifests.
-version: v3.28.1
+version: v3.29.1
 
 # Configure the images to use when generating manifests.
 node:
@@ -23,7 +23,6 @@ csi-driver:
   image: docker.io/calico/csi-driver
 
 # Some defaults used in the templates.
-includeCRDs: true
 imagePullPolicy: IfNotPresent
 mtu: "1440"
 ipam: "calico-ipam"
@@ -33,3 +32,11 @@ etcd:
     crt: null
     ca: null
     key: null
+
+
+# Custom 
+
+datastore: kubernetes
+
+network: calico
+
