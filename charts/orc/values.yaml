@@ -1,0 +1,50 @@
+namespace: orc-system
+
+replicas: 1
+
+image:
+  version: ""
+  pullPolicy: IfNotPresent
+
+service:
+  port: 8443
+  targetPort: 8443
+
+manager:
+  metricsPort: 8443
+  healthProbePort: 8081
+  leaderElect: true
+  extraArgs: []
+
+livenessProbe:
+  initialDelaySeconds: 15
+  periodSeconds: 20
+
+readinessProbe:
+  initialDelaySeconds: 5
+  periodSeconds: 10
+
+resources:
+  limits:
+    cpu: 500m
+    memory: 256Mi
+  requests:
+    cpu: 10m
+    memory: 64Mi
+
+securityContext:
+  runAsNonRoot: true
+  runAsUser: 65532
+  runAsGroup: 65532
+
+terminationGracePeriodSeconds: 10
+
+podAnnotations: {}
+
+labels: {}
+
+nodeSelector: {}
+
+tolerations: []
+
+affinity: {}
