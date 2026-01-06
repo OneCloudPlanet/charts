@@ -10,4 +10,14 @@ entries:
     urls:
     - calico-0.1.0.tgz
     version: 0.1.0
-generated: "2024-12-12T15:14:34.198358995Z"
+  orc:
+  - apiVersion: v1
+    appVersion: v2.4.0
+    created: "2026-01-06T14:30:07.221639851Z"
+    description: Kubernetes API for declarative management of OpenStack resources
+    digest: 281972cad924bbf8c8c5f81ca36bb8d0fc9e6d6fee08aa90c64ba9dca1aecff4
+    name: orc
+    urls:
+    - orc-0.1.0.tgz
+    version: 0.1.0
+generated: "2026-01-06T14:30:07.221652715Z"
